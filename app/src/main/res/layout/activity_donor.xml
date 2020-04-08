@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donor"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/bec" />
+
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:background="@drawable/nameme"
+
+
+            android:hint="Name?"
+            android:inputType="textPersonName"
+
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:background="@drawable/nameme"
+
+
+            android:hint="Email?"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_sex_male"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:background="@drawable/male" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"/>
+            <Button
+                android:id="@+id/btn_sex_female"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:background="@drawable/female" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+
+        <EditText
+            android:id="@+id/edt_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:background="@drawable/nameme"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+        <EditText
+            android:id="@+id/becpasscon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:background="@drawable/nameme"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:textAlignment="center"
+            android:background="@drawable/nameme" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".3"/>
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/donebut" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234275086529",
+    "firebase_url": "https://otp-autho.firebaseio.com",
+    "project_id": "otp-autho",
+    "storage_bucket": "otp-autho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234275086529:android:9e6096c728332ac8b6b440",
+        "android_client_info": {
+          "package_name": "com.care.idonate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234275086529-qp4daui9bbei9kqrskobkflcno7hkvah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.care.idonate",
+            "certificate_hash": "b4eb04c17ab8834dc880113fba0e981516f9c163"
+          }
+        },
+        {
+          "client_id": "234275086529-5mligjjcvs9td4tig6evprubb4aban0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgYBabbbN9rvMnTztk8LUeLlEKb_6xaCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234275086529-h4e9p5vm0uvqf1s4fvopnhca9raqlqsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
